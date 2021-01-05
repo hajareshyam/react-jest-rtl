@@ -4,7 +4,6 @@ const Calculator = ({ a, b }) => {
     const [result, setResult] = useState(0);
     const sum = (a, b) => {
         let result = a + b
-        console.log("HEREEE")
         setResult(result)
     }
 
